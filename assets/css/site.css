@@ -19,10 +19,17 @@ footer {
 
 /*products*/
 
-#productDisplay section {
+#productDisplay {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#productInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .productCard {
@@ -32,7 +39,9 @@ footer {
   width: 20em;
   margin: 1em;
 }
-
-.category-image {
-  width: 50px;
+#shoppingList {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 220px;
 }
